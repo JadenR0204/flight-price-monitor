@@ -75,8 +75,10 @@ jobs:
             --threshold "${{ github.event.inputs.threshold || '0' }}" \
             --serverchan-key "${{ secrets.SERVERCHAN_KEY }}" \
             --output config.yaml
-
+        
       - name: Run price monitor (one round)
+        env:
+          BARK_KEY: ${{ secrets.BARK_KEY }}
         run: python main.py --once
         timeout-minutes: 15
 
