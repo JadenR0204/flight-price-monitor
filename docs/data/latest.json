@@ -1,0 +1,119 @@
+{
+  "ok": true,
+  "data": {
+    "query": {
+      "from": {
+        "code": "SZX",
+        "name": "SZX"
+      },
+      "to": {
+        "code": "SZX",
+        "name": "SZX"
+      },
+      "depart_dates": [
+        "2026-11-14"
+      ],
+      "return_dates": [
+        "2026-11-14"
+      ],
+      "platforms": [
+        "qunar",
+        "tongcheng"
+      ],
+      "threshold": 0,
+      "query_time": "2026-11-06 04:30:26"
+    },
+    "results": [
+      {
+        "platform": "tongcheng",
+        "from": "SZX",
+        "to": "MIG",
+        "date": "2026-11-14",
+        "price": 1010.0,
+        "airline": "",
+        "flight_no": "",
+        "depart_time": "",
+        "arrive_time": "",
+        "fetched_at": "2026-11-06 04:25:58"
+      },
+      {
+        "platform": "qunar",
+        "from": "MIG",
+        "to": "SZX",
+        "date": "2026-10-06",
+        "price": 600.0,
+        "airline": "",
+        "flight_no": "",
+        "depart_time": "",
+        "arrive_time": "",
+        "fetched_at": "2026-11-06 04:29:57"
+      },
+      {
+        "platform": "tongcheng",
+        "from": "MIG",
+        "to": "SZX",
+        "date": "2026-10-06",
+        "price": 600.0,
+        "airline": "",
+        "flight_no": "",
+        "depart_time": "",
+        "arrive_time": "",
+        "fetched_at": "2026-11-06 04:30:26"
+      }
+    ],
+    "summary": [
+      {
+        "from": "MIG",
+        "to": "SZX",
+        "date": "2026-10-06",
+        "per_platform": {
+          "qunar": 600.0,
+          "tongcheng": 600.0
+        },
+        "min_price": 600.0,
+        "best_platform": "qunar",
+        "best_flight": "",
+        "best_depart_time": "",
+        "best_arrive_time": ""
+      },
+      {
+        "from": "SZX",
+        "to": "MIG",
+        "date": "2026-11-14",
+        "per_platform": {
+          "tongcheng": 1010.0
+        },
+        "min_price": 1010.0,
+        "best_platform": "tongcheng",
+        "best_flight": "",
+        "best_depart_time": "",
+        "best_arrive_time": ""
+      }
+    ],
+    "trend": {
+      "2026-11-14": {
+        "tongcheng": [
+          {
+            "t": "2026-11-06 04:25:58",
+            "v": 1010.0
+          }
+        ]
+      },
+      "2026-10-06": {
+        "qunar": [
+          {
+            "t": "2026-11-06 04:29:57",
+            "v": 600.0
+          }
+        ],
+        "tongcheng": [
+          {
+            "t": "2026-11-06 04:30:26",
+            "v": 600.0
+          }
+        ]
+      }
+    },
+    "generated_at": "2026-11-06T04:31:01.388908Z"
+  }
+}
