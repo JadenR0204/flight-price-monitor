@@ -11,38 +11,38 @@
         "name": "BJS"
       },
       "depart_dates": [
-        "2026-11-16"
+        "2026-11-10"
       ],
       "return_dates": [],
       "platforms": [
         "tongcheng"
       ],
       "threshold": 0,
-      "query_time": "2026-11-06 08:57:40"
+      "query_time": "2026-11-06 09:06:36"
     },
     "results": [
       {
         "platform": "tongcheng",
         "from": "SZX",
         "to": "BJS",
-        "date": "2026-11-16",
-        "price": 1300.0,
+        "date": "2026-11-10",
+        "price": 450.0,
         "airline": "",
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-11-06 08:57:40"
+        "fetched_at": "2026-11-06 09:06:36"
       }
     ],
     "summary": [
       {
         "from": "SZX",
         "to": "BJS",
-        "date": "2026-11-16",
+        "date": "2026-11-10",
         "per_platform": {
-          "tongcheng": 1300.0
+          "tongcheng": 450.0
         },
-        "min_price": 1300.0,
+        "min_price": 450.0,
         "best_platform": "tongcheng",
         "best_flight": "",
         "best_depart_time": "",
@@ -50,15 +50,15 @@
       }
     ],
     "trend": {
-      "2026-11-16": {
+      "2026-11-10": {
         "tongcheng": [
           {
-            "t": "2026-11-06 08:57:40",
-            "v": 1300.0
+            "t": "2026-11-06 09:06:36",
+            "v": 450.0
           }
         ]
       }
     },
-    "generated_at": "2026-11-06T08:58:15.289929Z"
+    "generated_at": "2026-11-06T09:07:13.445188Z"
   }
 }
