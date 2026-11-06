@@ -7,165 +7,58 @@
         "name": "SZX"
       },
       "to": {
-        "code": "MIG",
-        "name": "MIG"
+        "code": "BJS",
+        "name": "BJS"
       },
       "depart_dates": [
-        "2026-11-14",
-        "2026-11-15",
         "2026-11-16"
       ],
       "return_dates": [],
       "platforms": [
-        "qunar",
         "tongcheng"
       ],
       "threshold": 0,
-      "query_time": "2026-11-06 09:44:12"
+      "query_time": "2026-11-06 14:59:28"
     },
     "results": [
       {
-        "platform": "qunar",
+        "platform": "tongcheng",
         "from": "SZX",
-        "to": "MIG",
-        "date": "2026-11-15",
-        "price": 800.0,
-        "airline": "",
-        "flight_no": "",
-        "depart_time": "",
-        "arrive_time": "",
-        "fetched_at": "2026-11-06 09:42:53"
-      },
-      {
-        "platform": "qunar",
-        "from": "SZX",
-        "to": "MIG",
+        "to": "BJS",
         "date": "2026-11-16",
-        "price": 1189.0,
+        "price": 1300.0,
         "airline": "",
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-11-06 09:43:08"
-      },
-      {
-        "platform": "tongcheng",
-        "from": "SZX",
-        "to": "MIG",
-        "date": "2026-11-14",
-        "price": 1010.0,
-        "airline": "",
-        "flight_no": "",
-        "depart_time": "",
-        "arrive_time": "",
-        "fetched_at": "2026-11-06 09:43:31"
-      },
-      {
-        "platform": "tongcheng",
-        "from": "SZX",
-        "to": "MIG",
-        "date": "2026-11-15",
-        "price": 840.0,
-        "airline": "",
-        "flight_no": "",
-        "depart_time": "",
-        "arrive_time": "",
-        "fetched_at": "2026-11-06 09:43:51"
-      },
-      {
-        "platform": "tongcheng",
-        "from": "SZX",
-        "to": "MIG",
-        "date": "2026-11-16",
-        "price": 1360.0,
-        "airline": "",
-        "flight_no": "",
-        "depart_time": "",
-        "arrive_time": "",
-        "fetched_at": "2026-11-06 09:44:12"
+        "fetched_at": "2026-11-06 14:59:28"
       }
     ],
     "summary": [
       {
         "from": "SZX",
-        "to": "MIG",
-        "date": "2026-11-14",
-        "per_platform": {
-          "tongcheng": 1010.0
-        },
-        "min_price": 1010.0,
-        "best_platform": "tongcheng",
-        "best_flight": "",
-        "best_depart_time": "",
-        "best_arrive_time": ""
-      },
-      {
-        "from": "SZX",
-        "to": "MIG",
-        "date": "2026-11-15",
-        "per_platform": {
-          "qunar": 800.0,
-          "tongcheng": 840.0
-        },
-        "min_price": 800.0,
-        "best_platform": "qunar",
-        "best_flight": "",
-        "best_depart_time": "",
-        "best_arrive_time": ""
-      },
-      {
-        "from": "SZX",
-        "to": "MIG",
+        "to": "BJS",
         "date": "2026-11-16",
         "per_platform": {
-          "qunar": 1189.0,
-          "tongcheng": 1360.0
+          "tongcheng": 1300.0
         },
-        "min_price": 1189.0,
-        "best_platform": "qunar",
+        "min_price": 1300.0,
+        "best_platform": "tongcheng",
         "best_flight": "",
         "best_depart_time": "",
         "best_arrive_time": ""
       }
     ],
     "trend": {
-      "2026-11-15": {
-        "qunar": [
-          {
-            "t": "2026-11-06 09:42:53",
-            "v": 800.0
-          }
-        ],
-        "tongcheng": [
-          {
-            "t": "2026-11-06 09:43:51",
-            "v": 840.0
-          }
-        ]
-      },
       "2026-11-16": {
-        "qunar": [
-          {
-            "t": "2026-11-06 09:43:08",
-            "v": 1189.0
-          }
-        ],
         "tongcheng": [
           {
-            "t": "2026-11-06 09:44:12",
-            "v": 1360.0
-          }
-        ]
-      },
-      "2026-11-14": {
-        "tongcheng": [
-          {
-            "t": "2026-11-06 09:43:31",
-            "v": 1010.0
+            "t": "2026-11-06 14:59:28",
+            "v": 1300.0
           }
         ]
       }
     },
-    "generated_at": "2026-11-06T09:45:27.707966Z"
+    "generated_at": "2026-11-06T14:59:53.931585Z"
   }
 }
