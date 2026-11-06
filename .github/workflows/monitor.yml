@@ -25,7 +25,7 @@ on:
       depart_dates:
         description: '去程日期, 逗号分隔 (如 2026-09-30,2026-10-01)'
         required: true
-        default: '2027-11-16'
+        default: '2026-11-16'
       return_dates:
         description: '回程日期, 逗号分隔 (可选)'
         required: false
