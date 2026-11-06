@@ -86,9 +86,6 @@ class BarkNotifier:
             "group": "机票监控",
         }
 
-        if link:
-            payload["url"] = link.group(1)
-
         request = urllib.request.Request(
             f"https://api.day.app/{self.key}",
             data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
