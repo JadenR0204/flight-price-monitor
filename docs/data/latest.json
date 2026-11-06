@@ -7,58 +7,165 @@
         "name": "SZX"
       },
       "to": {
-        "code": "BJS",
-        "name": "BJS"
+        "code": "MIG",
+        "name": "MIG"
       },
       "depart_dates": [
-        "2026-11-10"
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-16"
       ],
       "return_dates": [],
       "platforms": [
+        "qunar",
         "tongcheng"
       ],
       "threshold": 0,
-      "query_time": "2026-11-06 09:06:36"
+      "query_time": "2026-11-06 09:44:12"
     },
     "results": [
       {
-        "platform": "tongcheng",
+        "platform": "qunar",
         "from": "SZX",
-        "to": "BJS",
-        "date": "2026-11-10",
-        "price": 450.0,
+        "to": "MIG",
+        "date": "2026-11-15",
+        "price": 800.0,
         "airline": "",
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-11-06 09:06:36"
+        "fetched_at": "2026-11-06 09:42:53"
+      },
+      {
+        "platform": "qunar",
+        "from": "SZX",
+        "to": "MIG",
+        "date": "2026-11-16",
+        "price": 1189.0,
+        "airline": "",
+        "flight_no": "",
+        "depart_time": "",
+        "arrive_time": "",
+        "fetched_at": "2026-11-06 09:43:08"
+      },
+      {
+        "platform": "tongcheng",
+        "from": "SZX",
+        "to": "MIG",
+        "date": "2026-11-14",
+        "price": 1010.0,
+        "airline": "",
+        "flight_no": "",
+        "depart_time": "",
+        "arrive_time": "",
+        "fetched_at": "2026-11-06 09:43:31"
+      },
+      {
+        "platform": "tongcheng",
+        "from": "SZX",
+        "to": "MIG",
+        "date": "2026-11-15",
+        "price": 840.0,
+        "airline": "",
+        "flight_no": "",
+        "depart_time": "",
+        "arrive_time": "",
+        "fetched_at": "2026-11-06 09:43:51"
+      },
+      {
+        "platform": "tongcheng",
+        "from": "SZX",
+        "to": "MIG",
+        "date": "2026-11-16",
+        "price": 1360.0,
+        "airline": "",
+        "flight_no": "",
+        "depart_time": "",
+        "arrive_time": "",
+        "fetched_at": "2026-11-06 09:44:12"
       }
     ],
     "summary": [
       {
         "from": "SZX",
-        "to": "BJS",
-        "date": "2026-11-10",
+        "to": "MIG",
+        "date": "2026-11-14",
         "per_platform": {
-          "tongcheng": 450.0
+          "tongcheng": 1010.0
         },
-        "min_price": 450.0,
+        "min_price": 1010.0,
         "best_platform": "tongcheng",
+        "best_flight": "",
+        "best_depart_time": "",
+        "best_arrive_time": ""
+      },
+      {
+        "from": "SZX",
+        "to": "MIG",
+        "date": "2026-11-15",
+        "per_platform": {
+          "qunar": 800.0,
+          "tongcheng": 840.0
+        },
+        "min_price": 800.0,
+        "best_platform": "qunar",
+        "best_flight": "",
+        "best_depart_time": "",
+        "best_arrive_time": ""
+      },
+      {
+        "from": "SZX",
+        "to": "MIG",
+        "date": "2026-11-16",
+        "per_platform": {
+          "qunar": 1189.0,
+          "tongcheng": 1360.0
+        },
+        "min_price": 1189.0,
+        "best_platform": "qunar",
         "best_flight": "",
         "best_depart_time": "",
         "best_arrive_time": ""
       }
     ],
     "trend": {
-      "2026-11-10": {
+      "2026-11-15": {
+        "qunar": [
+          {
+            "t": "2026-11-06 09:42:53",
+            "v": 800.0
+          }
+        ],
         "tongcheng": [
           {
-            "t": "2026-11-06 09:06:36",
-            "v": 450.0
+            "t": "2026-11-06 09:43:51",
+            "v": 840.0
+          }
+        ]
+      },
+      "2026-11-16": {
+        "qunar": [
+          {
+            "t": "2026-11-06 09:43:08",
+            "v": 1189.0
+          }
+        ],
+        "tongcheng": [
+          {
+            "t": "2026-11-06 09:44:12",
+            "v": 1360.0
+          }
+        ]
+      },
+      "2026-11-14": {
+        "tongcheng": [
+          {
+            "t": "2026-11-06 09:43:31",
+            "v": 1010.0
           }
         ]
       }
     },
-    "generated_at": "2026-11-06T09:07:13.445188Z"
+    "generated_at": "2026-11-06T09:45:27.707966Z"
   }
 }
